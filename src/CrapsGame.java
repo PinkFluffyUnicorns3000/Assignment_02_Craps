@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 public class CrapsGame {
     public static void main(String[] args) {
-        //Intilize variables
+        //Initialize variables
         boolean endGame = false;
         boolean done = false;
         Random Randomizer = new Random();
