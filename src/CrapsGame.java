@@ -35,7 +35,7 @@ public class CrapsGame {
                     if(sum == point){
                         System.out.println("You matched You win!! :)");
                         endGame = true;
-                    } else if(sum == 7 || sum == 11){
+                    } else if(sum == 7){
                         System.out.println("You rolled " + sum + " You Crapped out :(");
                         endGame = true;
                     } else { // Player did not Crap out or win
